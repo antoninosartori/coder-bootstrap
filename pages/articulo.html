@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="../img/iconoweb.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <title>Bootstrap Libre</title>
+</head>
+<body>
+    <header class="header container-fluid">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <i class="fa-brands fa-bootstrap logo"></i>
+                <a class="navbar-brand logoTxt" href="../index.html">Bootstrap Libre</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./crear-usuario.html">Crear cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./crear-usuario.html">Ingresa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Electrodomestricos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Actividad Fisica y Deportes</a></li>
+                                <li><a class="dropdown-item" href="#">Electrodomestricos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Actividad Fisica y Deportes</a></li>
+                                <li><a class="dropdown-item" href="#">Electrodomestricos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Actividad Fisica y Deportes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/articulo.html" tabindex="-1" aria-disabled="true">Ofertas</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y mas..." aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid mainArticulo-page">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fotoProductoContainer d-flex justify-content-center col-12">
+                    <h1>Smart TV Samsung 50"</h1>
+                </div>
+                <div class="especificacionesProductoContainer col-12">
+                    <h2>Especificaciones</h2>
+                    <p>Tecnología HDR para una calidad de imagen mejorada.</p>
+                    <p>Modo de sonido: Dolby Digital Plus.</p>
+                    <p>Con Web browser, Gallery, Samsung TV Plus.</p>
+                    <p>Sistema operativo Tizen.</p>
+                    <p>Conectá tus dispositivos mediante sus 3 puertos HDMI y sus 2 puertos USB.</p>
+                    <p>Dimensiones: 1676.7mm de ancho, 960.3mm de alto, 26.6mm de profundidad.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="infoProductoContainer d-flex flex-column">
+                    <h2>Llevalo por $126.000</h2>
+                    <a href="">O llevalo en 6 cuotas de $23.000 </a>
+                    <button class="btn">Comprar</button>
+                    <button class="btn">Agregar al carrito</button>
+                </div>
+                <div class="masProductosContainer ">
+                        <div class="container maxwidth seccionOfertas">
+                            <div class="d-flex align-items-center">
+                                <h3>Tambien puede interesarte</h3>
+                            </div>
+                            <div class="card-group">
+                                <div class="card ">
+                                    <a href="#">
+                                        <img src="../img/cardImg3.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$126.999</h5>
+                                            <p class="card-text">Smart TV</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card ">
+                                    <a href="#">
+                                        <img src="../img/cardImg4.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$126.999</h5>
+                                            <p class="card-text">Smart TV</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card ">
+                                    <a href="#">
+                                        <img src="../img/cardImg5.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$126.999</h5>
+                                            <p class="card-text">Smart TV</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="container maxwidth redes ">
+                    <a href="https://instagram.com/antoninosartori" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/antonino.sartori/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/AntoninoS27" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/antoninosartori" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

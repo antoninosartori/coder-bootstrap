@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="../img/iconoweb.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <title>Bootstrap Libre</title>
+</head>
+<body>
+    <header class="header container-fluid">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <i class="fa-brands fa-bootstrap logo"></i>
+                <a class="navbar-brand logoTxt" href="../index.html">Bootstrap Libre</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Crear cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ingresa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Electrodomestricos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Actividad Fisica y Deportes</a></li>
+                                <li><a class="dropdown-item" href="#">Electrodomestricos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Actividad Fisica y Deportes</a></li>
+                                <li><a class="dropdown-item" href="#">Electrodomestricos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Actividad Fisica y Deportes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/articulo.html" tabindex="-1" aria-disabled="true">Ofertas</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y mas..." aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid usuarioPage">
+        <div class="container maxwidth">
+            <h1>Vamos a crear tu usuario</h1>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-12">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="" required>
+                    <div class="valid-feedback">
+                        Bien!
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="" required>
+                    <div class="valid-feedback">
+                        Bien!
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Email invalido.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                        Escribe un nombre de usuario.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        contraseña invalida.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Escribe nuevamente tu contraseña</label>
+                    <input type="password" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        contraseña invalida.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Provincia</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Elige...</option>
+                        <option>Entre Rios</option>
+                        <option>Buenos Aires</option>
+                        <option>Corrientes</option>
+                        <option>Santa Fe</option>
+                        <option>Cordoba</option>
+                        <option>La Pampa</option>
+                        <option>Mendoza</option>
+                        <option>Formosa</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Codigo Postal</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                        Aceptos los terminos y condiciones
+                        </label>
+                        <div class="invalid-feedback">
+                        You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Registrarme</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="container maxwidth redes ">
+                    <a href="https://instagram.com/antoninosartori" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/antonino.sartori/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/AntoninoS27" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/antoninosartori" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
